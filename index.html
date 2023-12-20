@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            background: linear-gradient(rgba(255,105,180,1), rgba(255,255,255,1));
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Courier New', monospace;
+            padding: 50px 0 200px 0; /* Aumenta el espacio en la parte inferior */
+        }
+        h1 {
+            text-transform: uppercase;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 200px;
+            height: auto;
+            margin-top: 20px;
+        }
+        p {
+            margin-top: 20px;
+            font-size: 1em;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .special {
+            color: #FF69B4; /* Color bonito */
+            font-size: 2em;
+            text-transform: uppercase;
+            margin-top: 50px;
+        }
+        .heart {
+            color: red;
+            font-size: 3em; /* Corazón más grande */
+            animation: pulse 1s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        #responseOptions {
+            border-radius: 12px; /* Hace que el menú desplegable sea redondeado */
+            padding: 5px;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>HOLA MI AMOR</h1>
+    <img src="imagenes/IMG_20231219_163453_790.jpg" alt="Imagen de amor">
+    <p>Primeramente, quiero agradecerte por haber llegado a mi vida, eres una de las personas mas importantes que he conocido y con la cual he vivido muchas cosas a lo largo del tiempo y sé que no todo ha sido bueno, pero he aprendido muchas cosas de mis errores y realmente estoy tratando de ser una mejor persona para ti y darte lo mejor que puedo para hacerte la niña más feliz del mundo. 🥰<br><br>
+    También quiero decirte que eres una niña maravillosa con buenos sentimientos, y se que a lo largo de tu vida has pasado cosas difíciles, pero a pesar de eso has sabido luchar contra todo eso y me siento muy orgulloso de ti y te admiro porque me has demostrado que a pesar de que has tenido muchos problemas siempre has sabido salir adelante. 🥺<br><br>
+    Realmente me encanta todo de ti, eres la niña que me enamoró de una forma que nunca me lo espere y nunca me voy a arrepentir de eso. Eres una niña hermosa, preciosa, dulce, alegre, chaparrita, enojoncita, tienes todo lo que me encanta, eres perfecta para mí. 😍<br><br>
+    Te quiero y te amo como no tienes idea, eres la niña que quiero tener para siempre en mi vida y sinceramente quiero todo contigo siempre siempre, quiero seguir viviendo muchas cosas junto a ti a pesar de que ahora estamos lejos, quiero comprometerme contigo, casarme contigo, tener una familia contigo (2 bebes), quiero llegar contigo hasta viejitos y si es posible morir contigo, pero todo que sea solo contigooo.</p>
+    <p>Nunca olvides lo mucho que TE AMOOO Y TE QUIEROOO MI AMOR 🥺💘🥰<br>
+        Y RECUERDA QUE SIEMPRE VAS A SER:</p>
+    <ul>
+        <li>MI AMOR ⭐</li>
+        <li>MI VIDA ⭐</li>
+        <li>MI BB ⭐</li>
+        <li>MI NIÑA ⭐</li>
+        <li>MI ENOJONCITA ⭐</li>
+        <li>MI CELOSITA ⭐</li>
+        <li>MI TOXICA ⭐</li>
+        <li>MI PRINCESA ⭐</li>
+        <li>MI REINA ⭐</li>
+        <li>MI MUJER ⭐</li>
+        <li>MI TODO ⭐</li>
+        <li>MI MUNDO ⭐</li>
+        <li>MI CORAZÓN ⭐</li>
+    </ul>
+    <p>Y POR SIEMPRE EL AMOR DE MI VIDAAA ❤️🥺</p>
+    <p>AHORA SI LO QUE TANTO ESPERABA🙈🙈</p>
+    <p class="special">¿QUIERES SER MI NOVIA?</p>
+    <p class="heart">💖</p>
+    <select id="responseOptions" onchange="alert(this.value)">
+        <option value="">Selecciona una opción</option>
+        <option value="TE AMOOO NOVIA MIA 🥺❤️">SI MI AMOR 🥺❤️</option>
+        <option value="F 🤔">LO PENSARE 🤔</option>
+        <option value="TRISTE☹️">POR EL MOMENTO NO☹️</option>
+    </select>
+    <img src="imagenes/Screenshot_2023.12.19_19.33.40.061.png" alt="Descripción de la imagen">
+    <audio autoplay loop>
+        <source src="musica/Ed Sheeran - Perfect.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
